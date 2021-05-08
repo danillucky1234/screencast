@@ -4,6 +4,10 @@ gcc xrectsel.c -lX11 -o xrectsel
 
 echo "The file xrectsel.c was successfully compiled!"
 
+chmod 755 screencast.sh
+
+echo "screencast.sh have been added permissions! [755]"
+
 cp xrectsel ~/.local/bin
 
 echo "xrectsel binary was successfully copied to the ~/.local/bin/"
